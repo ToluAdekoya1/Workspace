@@ -292,9 +292,16 @@ footer {
   }
   .reviews {
     font-weight: 700;
+    right: 10px;
   }
   .threeM{
     margin-left: 0;
     width: 97%;
+  }
+  .twoM{
+    width: 97%;
+  }
+  .fourM{
+    width: 98%;
   }
 }
