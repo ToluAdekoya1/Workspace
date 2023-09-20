@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #1f1f1f;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 400;
+}
+.burger {
+  padding: 40px;
+  cursor: pointer;
+}
+.cancel {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  top: 24px;
+  cursor: pointer;
+}
+#cl {
+  padding: 9px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.clicked {
+  background-color: white;
+  width: 310px;
+  height: 100%;
+  padding-top: 100px;
+  position: fixed;
+  right: -1px;
+  top: 0;
+  z-index: 1;
+}
+
+.contact2 {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.fourM {
+  margin-top: 100px;
+  letter-spacing: 3px;
+}
+.headerTxt,
+.aboutTxt,
+.servicesTxt,
+.reviewsTxt {
+  width: 85%;
+  line-height: 29px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-top: 180px;
+  margin-left: 10px;
+}
+.headTxt,
+.hacker2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 20px;
+  position: absolute;
+  left: 40px;
+  top: 490px;
+}
+/* Exception */
+button {
+  padding: 13px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 10px;
+  letter-spacing: 0;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #20c20e;
+  background-color: rgba(0, 0, 128, 0);
+  color: #20c20e;
+  font-size: 13px;
+  cursor: pointer;
+}
+.about,
+.services,
+.reviews,
+.contacts {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 20px;
+  padding: 20px;
+}
+.aboutTxt {
+  margin-top: 0;
+}
+.contacts {
+  margin-top: -80px;
+}
+/* ... */
+.hacker2 {
+  margin-top: 30px;
+  font-size: 80px;
+  font-weight: 900;
+  color: #20c20e;
+  letter-spacing: 2px;
+}
+.hidden {
+  display: none;
+}
+h1 {
+  margin-left: -50px;
+  margin-top: 40px;
+}
+.lastTxt {
+  margin-top: 0px;
+}
+.logo {
+  width: 120px;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+.logoClicked {
+	animation: spin 0.3s linear 1;
+}
+.link1 {
+  color: #20c20e;
+}
+.list {
+  margin-left: 70px;
+  letter-spacing: 2px;
+  line-height: 29px;
+}
+#menuTxt {
+  font-size: 27px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.oneM {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.oneY {
+  margin-left: 20px;
+}
+.reviews {
+  margin-left: 40%;
+}
+.reviewsTxt {
+  margin-top: 30px;
+}
+/* .services{
+	/* margin-left: -50px; */
+
+.servicesTxt {
+  margin-top: 30px;
+  list-style-type: style type;
+}
+.twoM,
+.threeM,
+.fourM,
+footer {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+}
+/* footer */
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  letter-spacing: 3px;
+}
+/* ... */
+.threeM {
+  border: 1px solid #20c20e;
+  margin-left: 10px;
+  margin: 10px;
+}
+/* ul{
+	padding-top: 50px;
+	padding-left: 3%;
+} */
+#cl:hover {
+  border-bottom: 1px solid #20c20e;
+}
+.gmail:hover, .text2:hover{
+	color: #20c20eb4;
+}
+.contact2:hover, button:hover{
+	box-shadow: #20c20eb4 0px 0px 1rem;
+}
+@media (min-width: 1100px) {
+  .burger,
+  .cancel {
+    display: none;
+  }
+  .headerTxt {
+    margin-top: 370px;
+  }
+  .one {
+    flex-direction: row-reverse;
+  }
+  .headTxt,
+  .hacker2 {
+    top: 230px;
+  }
+  .side {
+    display: inline;
+    background-color: #1f1f1f00;
+    left: 0px;
+    /* margin-left: 40px; */
+    width: 100%;
+    top: 50px;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  .logo {
+    position: absolute;
+    left: 45%;
+    top: -120px;
+  }
+  /* .y{
+		padding: 40px;
+	} */
+  nav {
+    margin-top: 100px;
+    color: white;
+    margin-left: 7%;
+  }
+  #menuTxt {
+    display: none;
+  }
+  #cl {
+    display: inline;
+  }
+  .about,
+  .services,
+  .contacts {
+    margin-left: -900px;
+  }
+  .reviews {
+    font-weight: 700;
+  }
+}
