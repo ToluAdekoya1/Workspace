@@ -21,6 +21,7 @@ body {
   position: relative;
   font-family: "Montserrat", sans-serif;
   /* font-family: 'Courier New', Courier, monospace; */
+  padding-left: 27px;
   font-weight: 400;
 }
 .burger {
@@ -59,6 +60,8 @@ body {
 .fourM {
   margin-top: 100px;
   letter-spacing: 3px;
+  width: 100%;
+  margin-left: 10px;
 }
 .headerTxt,
 .aboutTxt,
@@ -199,9 +202,14 @@ footer {
 }
 /* footer */
 footer {
+  display: flex;
   margin-top: 100px;
   padding: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   letter-spacing: 3px;
+  width: 100%;
 }
 /* ... */
 .threeM {
@@ -210,6 +218,8 @@ footer {
   margin: 10px;
   padding: 20px;
   position: relative;
+  width: 100%;
+  top: 30px;
 }
 /* ul{
 	padding-top: 50px;
@@ -228,6 +238,9 @@ footer {
   .burger,
   .cancel {
     display: none;
+  }
+  .body{
+    padding-left: 0px;
   }
   .headerTxt {
     margin-top: 370px;
@@ -257,9 +270,9 @@ footer {
     left: 45%;
     top: -120px;
   }
-  /* .y{
-		padding: 40px;
-	} */
+  /* .footer{
+    margin-left: -120px;
+  } */
   nav {
     margin-top: 100px;
     color: white;
