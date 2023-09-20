@@ -241,6 +241,7 @@ footer {
   }
   .body{
     padding-left: 0px;
+    overflow-x: hidden;
   }
   .headerTxt {
     margin-top: 370px;
@@ -291,5 +292,9 @@ footer {
   }
   .reviews {
     font-weight: 700;
+  }
+  .threeM{
+    margin-left: 0;
+    width: 97%;
   }
 }
