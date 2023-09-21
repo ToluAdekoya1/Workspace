@@ -27,6 +27,7 @@ body {
 .burger {
   padding: 40px;
   cursor: pointer;
+  margin-left: -20px;
 }
 .cancel {
   position: absolute;
@@ -50,7 +51,12 @@ body {
   top: 0;
   z-index: 1;
 }
-
+.con1, .con2, .con3, .con4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 .contact2 {
   top: 0;
   left: 0;
@@ -202,29 +208,22 @@ footer {
 }
 /* footer */
 footer {
-  display: flex;
   margin-top: 100px;
   padding: 30px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   letter-spacing: 3px;
-  width: 100%;
+  /* width: 100%; */
 }
 /* ... */
 .threeM {
   border: 1px solid #20c20e;
   margin-left: 19%;
   margin: 10px;
-  padding: 20px;
+  padding: 12px;
   position: relative;
   width: 100%;
   top: 30px;
 }
-/* ul{
-	padding-top: 50px;
-	padding-left: 3%;
-} */
 #cl:hover {
   border-bottom: 1px solid #20c20e;
 }
@@ -260,7 +259,6 @@ footer {
     display: inline;
     background-color: #1f1f1f00;
     left: 0px;
-    /* margin-left: 40px; */
     width: 100%;
     top: 50px;
     justify-content: space-between;
@@ -271,9 +269,6 @@ footer {
     left: 45%;
     top: -120px;
   }
-  /* .footer{
-    margin-left: -120px;
-  } */
   nav {
     margin-top: 100px;
     color: white;
