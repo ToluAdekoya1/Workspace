@@ -140,7 +140,7 @@ h1 {
 .logo {
   width: 120px;
   position: absolute;
-  right: 3%;
+  right: -20%;
   cursor: pointer;
 }
 .logoClicked {
