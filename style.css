@@ -66,7 +66,7 @@ body {
 .fourM {
   margin-top: 100px;
   letter-spacing: 3px;
-  width: 100%;
+  width: 97%;
   margin-left: 10px;
 }
 .headerTxt,
@@ -140,7 +140,7 @@ h1 {
 .logo {
   width: 120px;
   position: absolute;
-  left: 78%;
+  right: 3%;
   cursor: pointer;
 }
 .logoClicked {
@@ -181,8 +181,9 @@ h1 {
 }
 .reviews {
   position: absolute;
-  right: -16px;
+  right: -20px;
   top: 0;
+
 }
 .reviewsTxt {
   margin-top: 30px;
@@ -221,8 +222,11 @@ footer {
   margin: 10px;
   padding: 12px;
   position: relative;
-  width: 100%;
+  width: 97%;
   top: 30px;
+}
+.twoM{
+  width: 97%;
 }
 #cl:hover {
   border-bottom: 1px solid #20c20e;
